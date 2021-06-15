@@ -1,0 +1,73 @@
+nav li a {
+  color: #a6abaf !important; }
+nav li a.active {
+  color: #f5f4f0 !important; }
+nav .k {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #fffffb;
+  font-weight: 900; }
+nav .r {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #fffffb;
+  font-weight: 900; }
+nav .e {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #f1f1f1;
+  font-weight: 900; }
+nav .d {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #f1f1f1;
+  font-weight: 900; }
+nav .o {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #fafafa;
+  font-weight: 900; }
+nav .dash {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #fafafa;
+  font-weight: 900; }
+nav .b {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #fff8f9;
+  font-weight: 900; }
+nav .E {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #fff8f9;
+  font-weight: 900; }
+nav .t {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #fff8f9;
+  font-weight: 900; }
+nav nav .active a {
+  color: #61a6f5 !important; }
+nav nav a {
+  color: #c2c9f1 !important; }
+
+/*# sourceMappingURL=nav.css.map */

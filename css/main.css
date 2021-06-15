@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+nav li a {
+  color: #a6abaf !important; }
+nav li a.active {
+  color: #f5f4f0 !important; }
+nav .k {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #fffffb;
+  font-weight: 900; }
+nav .r {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #fffffb;
+  font-weight: 900; }
+nav .e {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #f1f1f1;
+  font-weight: 900; }
+nav .d {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #f1f1f1;
+  font-weight: 900; }
+nav .o {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #fafafa;
+  font-weight: 900; }
+nav .dash {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #fafafa;
+  font-weight: 900; }
+nav .b {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #fff8f9;
+  font-weight: 900; }
+nav .E {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #fff8f9;
+  font-weight: 900; }
+nav .t {
+  padding: 5px;
+  background-color: rgba(36, 71, 138, 0.4);
+  border: 1px solid rgba(36, 71, 138, 0.4);
+  border-radius: 30px;
+  color: #fff8f9;
+  font-weight: 900; }
+nav nav .active a {
+  color: #61a6f5 !important; }
+nav nav a {
+  color: #c2c9f1 !important; }
+
+body {
+  background-color: #1f253d; }
+
+@keyframes smoothDisplay {
+  from {
+    opacity: 0; }
+  50% {
+    opacity: 0.5; }
+  to {
+    opacity: 1; } }
+@keyframes tabsDisplay {
+  from {
+    opacity: 0; }
+  50% {
+    opacity: 0.5; }
+  to {
+    opacity: 1; } }
+.container {
+  background-color: #394264;
+  margin-top: 20px;
+  padding-bottom: 100px; }
+
+h2 {
+  color: #eff0f2;
+  text-align: center;
+  font-family: 'Balsamiq Sans';
+  margin-top: 20px; }
+
+.date_and_country {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; }
+  .date_and_country input {
+    border: 1px solid #444646;
+    border-radius: 10px;
+    color: #494949;
+    font-size: 16px;
+    font-weight: 600; }
+  .date_and_country img {
+    width: 20px;
+    height: 20px; }
+  .date_and_country li {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: #2c2c2c 1px solid; }
+    .date_and_country li p {
+      color: #424242;
+      font-family: 'Balsamiq Sans'; }
+  .date_and_country .dropdown-menu {
+    height: 250px;
+    overflow-y: scroll; }
+  .date_and_country .dropdown-toggle {
+    margin-left: 10px; }
+
+.btnViewBlock {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; }
+  .btnViewBlock button {
+    background-color: #11a8ab;
+    border: 1px solid #11a8ab;
+    border-radius: 5px;
+    padding: 5px 30px 5px 30px;
+    color: white; }
+
+.list__matches .tabs__container {
+  animation-name: tabsDisplay;
+  animation-duration: 1s;
+  animation-timing-function: linear; }
+.list__matches .list__matches_item {
+  animation-name: smoothDisplay;
+  animation-duration: 2s;
+  animation-timing-function: linear; }
+.list__matches .teams {
+  display: flex;
+  justify-content: space-between;
+  background-color: #50597b; }
+  .list__matches .teams img {
+    width: 15%;
+    height: 90%; }
+  @media (min-width: 992px) {
+    .list__matches .teams img {
+      width: 5%;
+      height: 90%; } }
+  .list__matches .teams p {
+    width: 33%;
+    font-family: 'Balsamiq Sans';
+    margin-top: 10px; }
+  .list__matches .teams span {
+    width: 6%;
+    margin-top: 10px; }
+  .list__matches .teams a {
+    width: 100%;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color: #50597b;
+    border: 1px solid #50597b; }
+
+.tabs__containerPlayer {
+  background-color: #f7f9ff; }
+  .tabs__containerPlayer h2 {
+    color: #424141; }
+
+.leagueNameAndLogo {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e7e7e7; }
+  .leagueNameAndLogo img {
+    width: 15%;
+    height: 15%;
+    margin-top: 7px; }
+  .leagueNameAndLogo p {
+    font-family: 'Balsamiq Sans';
+    color: #383838;
+    margin-top: 7px;
+    font-size: 16px; }
+
+.nameTeams {
+  display: flex;
+  justify-content: space-around; }
+  .nameTeams p {
+    font-size: 24px;
+    font-family: 'Balsamiq Sans';
+    color: #444444; }
+
+.logoTeams {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px; }
+  .logoTeams span {
+    font-size: 34px; }
+
+.oddsFicturesItem {
+  display: flex;
+  justify-content: space-evenly; }
+  .oddsFicturesItem p {
+    padding-right: 5px;
+    font-family: 'Balsamiq Sans';
+    color: #383838;
+    margin-top: 10px; }
+  .oddsFicturesItem span {
+    font-family: 'Balsamiq Sans';
+    color: #0e31a5;
+    margin-top: 10px; }
+
+.oddsFictures {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  background-color: rgba(223, 224, 222, 0.842);
+  border: 1px solid #c5c5c5;
+  border-radius: 10px; }
+
+.infoCityStadium div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px; }
+  .infoCityStadium div p {
+    width: 50%;
+    font-family: 'Balsamiq Sans';
+    color: #464646; }
+  .infoCityStadium div .infoMatch {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Balsamiq Sans'; }
+
+.standigsItem {
+  display: flex;
+  justify-content: space-between;
+  color: #252525;
+  border: 1px solid rgba(58, 88, 134, 0.233);
+  border-radius: 10px; }
+  .standigsItem p {
+    width: 30%;
+    padding-right: 5px; }
+  .standigsItem span {
+    width: 10%;
+    margin-left: 2px; }
+  .standigsItem h5 {
+    width: 20%;
+    font-size: 15px;
+    font-weight: 400; }
+
+.tabs__container h2 {
+  color: #2b2b2b; }
+
+.hederStandigs {
+  background-color: #bef4fd; }
+
+.tabs__container h3 {
+  text-align: center;
+  margin-top: 20px; }
+.tabs__container h5 {
+  text-align: center; }
+.tabs__container .statistic_item {
+  display: flex;
+  justify-content: space-between; }
+.tabs__container .logo {
+  width: 20%;
+  height: 60%; }
+.tabs__container p {
+  width: 33%;
+  font-family: 'Balsamiq Sans';
+  font-weight: 500;
+  padding-left: 10px; }

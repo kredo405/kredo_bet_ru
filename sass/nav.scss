@@ -1,0 +1,88 @@
+nav {
+    li {
+        a {
+            color: #a6abaf !important;
+        }
+        a.active {
+            color: #f5f4f0 !important;
+        }
+    }
+    .k {
+        padding: 5px;
+        background-color:rgba(36, 71, 138, 0.4);
+        border: 1px solid  rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color: rgb(255, 255, 251);
+        font-weight: 900;
+      }
+      .r {
+        padding: 5px;
+        background-color: rgba(36, 71, 138, 0.4);
+        border: 1px solid   rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color:rgb(255, 255, 251);
+        font-weight: 900;
+      }
+      .e {
+        padding: 5px;
+        background-color:   rgba(36, 71, 138, 0.4);
+        border: 1px solid   rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color: rgb(241, 241, 241);
+        font-weight: 900;
+      }
+      .d {
+        padding: 5px;
+        background-color:   rgba(36, 71, 138, 0.4);
+        border: 1px solid    rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color: rgb(241, 241, 241);
+        font-weight: 900;
+      }
+      .o {
+        padding: 5px;
+        background-color: rgba(36, 71, 138, 0.4);
+        border: 1px solid     rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color: rgb(250, 250, 250);
+        font-weight: 900;
+      }
+      .dash {
+        padding: 5px;
+        background-color:   rgba(36, 71, 138, 0.4);
+        border: 1px solid    rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color:  rgb(250, 250, 250);
+        font-weight: 900;
+      }
+      .b {
+        padding: 5px;
+        background-color:rgba(36, 71, 138, 0.4);
+        border: 1px solid  rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color: rgb(255, 248, 249);
+        font-weight: 900;
+      }
+      .E {
+        padding: 5px;
+        background-color:  rgba(36, 71, 138, 0.4);
+        border: 1px solid   rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color:  rgb(255, 248, 249);
+        font-weight: 900;
+      }
+      .t {
+        padding: 5px;
+        background-color: rgba(36, 71, 138, 0.4);
+        border: 1px solid   rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color: rgb(255, 248, 249);
+        font-weight: 900;
+      }    
+
+      nav .active a {
+        color: #61a6f5 !important; }
+      nav a {
+        color: #c2c9f1 !important; }  
+
+}
